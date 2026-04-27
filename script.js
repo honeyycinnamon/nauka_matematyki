@@ -16,21 +16,21 @@
                     case 'odejmowanie':
                         x = Math.floor(Math.random() * 101);
                         y = Math.floor(Math.random() * 101);
-                        wynik = x - y;
+                        wynik = x-y;
                         znak = "-";
                         break;
 
                     case 'mnozenie':
                         x = Math.floor(Math.random() * 16);
                         y = Math.floor(Math.random() * 16);
-                        wynik = x * y;
+                        wynik = x*y;
                         znak = "*";
                         break;
 
                     case 'dzielenie':
                         x = Math.floor(Math.random() * 16);
                         y = Math.floor(Math.random() * 14)+1;
-                        wynik = x/y;
+                        wynik = Math.round((x / y) * 100) / 100;;
                         znak = "/"
                         break;
                 }
