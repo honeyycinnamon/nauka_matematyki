@@ -1,0 +1,91 @@
+body{
+    background-color: pink;
+}
+
+header{
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Comic Sans MS', sans-serif;
+    font-weight: bold;
+    color: black;
+    margin-top: 15px;
+}
+
+button{
+    margin:15px;
+    margin-bottom: 0px;
+    background: none;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+#wynik{
+    display: flex;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    background-color: black;
+    color: pink;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+#pole{
+    display: flex;
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-top: 100px;
+}
+
+input{
+    width: 100px;
+    height: 55px;
+    font-size: 55px;
+    margin-top: 12px;
+}
+
+.btn{
+    border: 3px deeppink solid;
+    border-radius: 15px;
+    font-size: 30px;
+    padding: 5px 10px 5px 10px;
+    font-family: 'Trebuchet MS', sans-serif;
+    margin-right: 0;
+}
+
+@font-face {
+    font-family: 'Comic Sans MS';
+    src: url('ComicSansMS.woff2') format('woff2'),
+        url('ComicSansMS.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
